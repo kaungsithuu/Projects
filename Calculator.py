@@ -1,4 +1,5 @@
 print("This a calculator using python language.")
+#intput the first number
 num1 = float(input("What is your first numer: "))
 print("""Choose 
 + for addition
@@ -7,6 +8,7 @@ print("""Choose
 / for division
 """)
 operator = (input("Operator: "))
+#imput the second number
 num2 = float(input("What is your second number: "))
 if operator == "+":
     ans = num1 + num2
